@@ -33,7 +33,7 @@ and grayscale representation**.
 The comparison below shows how LoRA fine-tuning improves ship detection performance
 on SAR imagery compared to the original pre-trained GroundingDINO checkpoint.
 <p align="center">
-  <img width="1578" height="769" alt="image" src="https://github.com/user-attachments/assets/de45a1a8-2099-4a11-a042-17f40a8cc67c" />
+  <img width="1578" height="769" alt="image" src="https://github.com/user-attachments/assets/d60a4ad3-3d59-41fd-994c-af9118f076e5" />
 </p>
 
 ---
