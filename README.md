@@ -38,39 +38,6 @@ on SAR imagery compared to the original pre-trained GroundingDINO checkpoint.
 
 ---
 
-## 📥 Download LoRA Weights
-
-Pretrained LoRA adapters are provided via GitHub Releases.
-
-- **LoRA adapter (PEFT format, recommended)**  
-  Download:  
-  `lora_adapter.zip` from the latest release  
-  → https://github.com/simjw0223/GroundingDINO-LoRA-Adapter-for-SAR/releases
-
-- **Raw LoRA state_dict (optional)**  
-  Download:  
-  `model_lora_state_dict.pth` from the same release
-
-You can load the adapter together with the original Grounding DINO checkpoint as follows:
-
-```python
-from transformers import AutoModelForZeroShotObjectDetection, AutoProcessor
-from peft import PeftModel
-
-model_id = "IDEA-Research/grounding-dino-tiny"
-adapter_dir = "./lora_adapter"  # unpacked lora_adapter.zip
-
-# 1. load base model
-base = AutoModelForZeroShotObjectDetection.from_pretrained(model_id).cuda().eval()
-
-# 2. load LoRA adapter
-model = PeftModel.from_pretrained(base, adapter_dir).cuda().eval()
-
-# 3. load processor saved with the adapter
-processor = AutoProcessor.from_pretrained(adapter_dir)
-
-
----
 
 ## 📌 Model Information
 
