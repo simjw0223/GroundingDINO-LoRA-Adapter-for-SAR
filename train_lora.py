@@ -1,3 +1,6 @@
+Fix description: this script is for SAR ship LoRA fine-tuning, not generic COCO
+
+
 import os
 import json
 import random
