@@ -36,6 +36,7 @@ on SAR imagery compared to the original pre-trained GroundingDINO checkpoint.
   <img width="1578" height="769" alt="image" src="https://github.com/user-attachments/assets/de45a1a8-2099-4a11-a042-17f40a8cc67c" />
  /
 </p>
+
 ---
 
 ## 📌 Model Information
@@ -47,6 +48,7 @@ on SAR imagery compared to the original pre-trained GroundingDINO checkpoint.
 | Domain          | SAR (Synthetic Aperture Radar)               |
 | Task            | Ship / Vessel Detection                      |
 | Dataset         | `<modify: Private / Public / Custom>`        |
+
 
 ---
 
