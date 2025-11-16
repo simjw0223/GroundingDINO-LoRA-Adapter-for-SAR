@@ -38,6 +38,17 @@ on SAR imagery compared to the original pre-trained GroundingDINO checkpoint.
 
 ---
 
+## 📥 Download Pretrained Weights
+
+You can download the **LoRA-fine-tuned SAR adapter weights** here:
+
+- 👉 **`lora_adapter.zip`** (PEFT adapter folder)
+- 👉 **`model_lora_state_dict.pth`** (raw LoRA state_dict)
+
+🔗 **Download:**  
+https://github.com/simjw0223/GroundingDINO-LoRA-Adapter-for-SAR/releases/latest
+
+---
 
 ## 📌 Model Information
 
