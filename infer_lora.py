@@ -12,7 +12,6 @@ It supports:
     ● Exporting COCO-style prediction JSON
     ● COCO evaluation (mAP, AP50, AP75, AR)
 
-Author : (your name)
 Base Model : IDEA-Research / grounding-dino-tiny
 LoRA Adapter Folder : exported during training phase
 ----------------------------------------------------------
