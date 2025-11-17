@@ -26,6 +26,7 @@ and grayscale representation**.
 - 🧩 Fully compatible with the **original Grounding DINO inference pipeline**
 - 🔍 Supports **natural language detection prompts** (e.g., _"ship"_, _"vessel"_)
 
+
 ---
 
 ## 🎯 Improvements Achieved Through LoRA Fine-tuning
